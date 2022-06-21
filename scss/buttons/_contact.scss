@@ -1,0 +1,19 @@
+.button-contacto {
+
+    div a {
+        text-decoration: none;
+        border-radius: .5rem;
+        border: 2px solid $color-dos;
+        padding: .5rem 1rem;
+        font-size: 1.5rem;
+        color: $color-dos;        
+        transition: .5s;
+
+        &:hover,
+        &:focus {
+            box-shadow: inset 0 -3rem 0 0 $color-dos;
+            color: $color-tres;           
+            border-radius: .8rem;
+        }
+    }
+}
