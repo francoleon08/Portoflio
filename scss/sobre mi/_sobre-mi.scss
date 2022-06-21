@@ -1,0 +1,27 @@
+#sobre-mi {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.sobre-mi-title {
+    margin: 2rem 0;
+
+    h2 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: $color-dos;
+    }
+}
+
+.sobre-mi-content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+
+    div {
+        text-align: justify;
+        margin: auto 1rem;
+        
+    }
+}
+
